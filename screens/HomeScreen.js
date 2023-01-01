@@ -1,6 +1,7 @@
 import React from "react";
 import { SafeAreaView, StyleSheet, Text, View, Image } from "react-native";
 import tw from 'twrnc';
+import NavOptions from "../components/NavOptions";
 
 /**
  * Tailwind React Native Classnames 🏄‍♂️
@@ -17,6 +18,9 @@ const HomeScreen = () => {
                     source={require('../assets/img/Uber_logo_2018.png')}
                     //source={{ uri: "https://links.parareact.com/gzs", }}
                 />
+
+                <NavOptions/>
+                
             </View>
         </SafeAreaView>
     )
